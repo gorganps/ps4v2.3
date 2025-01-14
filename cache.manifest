@@ -23,7 +23,6 @@ payloads/whos-that-southbridge.js
 webkit-9.00/exploit.js
 webkit-9.00/malloc.js
 webkit-9.00/rop/rop.js
-bg.jpg
 
 NETWORK:
 *
