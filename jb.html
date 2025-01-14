@@ -1,5 +1,81 @@
 <html>
-<body>
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+  /**  font-family: 'Arial', sans-serif; **/
+}
+
+.info {
+    overflow: hidden;
+    position: fixed;
+    position: absolute;
+    top: 25%; /* Adjust for centering */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.info img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+}
+
+.info h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ff8c00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.info p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+</style>
+</head>
+<body onload="setTimeout(webkitExploit,500);"><!--  -->
+<script src="exploit.js"></script>
+<div id="msgs" class="info">
+    <!-- Instagram Logo in Base64 -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgNzIgNzIiPgogIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik00Ni43ODUgMTIuNjE0aC0yMS41N2MtNi45NiAwLTEyLjYwMSA1LjY0Mi0xMi42MDEgMTIuNjAxdjIxLjU3YzAgNi45NiA1LjY0MiAxMi42MDEgMTIuNjAyIDEyLjYwMWgyMS41NjhjNi45NiAwIDEyLjYwMi01LjY0MiAxMi42MDItMTIuNjAyVjI1LjIxNWMwLTYuOTYtNS42NDItMTIuNjAxLTEyLjYwMi0xMi42MDF6Ii8+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTQ2Ljc4NSAxMi42MTRoLTIxLjU3Yy02Ljk2IDAtMTIuNjAxIDUuNjQyLTEyLjYwMSAxMi42MDF2MjEuNTdjMCA2Ljk2IDUuNjQyIDEyLjYwMSAxMi42MDIgMTIuNjAxaDIxLjU2OGM2Ljk2IDAgMTIuNjAyLTUuNjQyIDEyLjYwMi0xMi42MDJWMjUuMjE1YzAtNi45Ni01LjY0Mi0xMi42MDEtMTIuNjAyLTEyLjYwMXoiLz4KICA8Y2lyY2xlIGN4PSIzNiIgY3k9IjM2IiByPSIxMS4yOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPgogIDxjaXJjbGUgY3g9IjQ5LjcwOSIgY3k9IjIyLjI5MSIgcj0iMi40MTkiLz4KPC9zdmc+
+
+" alt="Instagram Logo">
+    <h1>@Gorgan.PS</h1>
+    <p><h2>Please Wait ... </h2></p>
+</div>
+
 <script>
 function wk_keep_alive()
 {
