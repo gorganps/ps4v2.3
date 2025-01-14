@@ -12,12 +12,12 @@
 	<script>
 		window.applicationCache.ondownloading = function()
 		{
-			alert("Caching started! Press OK and check progress on the bottom of the page.")
+			alert("Caching started! Press OK and check progress on the bottom of the page. (Insta: @Gorgan.PS)")
 		};
 		window.applicationCache.onprogress = function(a)
 		{
 			document.getElementById("progresscon").style.display="block";
-			document.getElementById("progressbarpc").innerHTML="<h3>Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed</h3>";
+			document.getElementById("progressbarpc").innerHTML="<h2>@Gorgan.PS<h2><br><h3>Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed</h3><br>";
 			document.getElementById("progressbar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";
 		};
 		window.applicationCache.oncached = window.applicationCache.onupdateready = function()
@@ -29,7 +29,7 @@
 	<div class="logo"></div>
 		<div class="tab">
 		<div id="Jailbreak" class="tabcontent link">
-			<a href="jb.html#p0=payloads/mira-900.js&p1=payloads/goldhen_v2.3_fw9.js">اضغط هنا</a>
+			<a href="jb.html#p0=payloads/mira-900.js&p1=payloads/goldhen_v2.3_fw9.js">CLICK</a>
 		</div>
 		
 		</div>
@@ -40,7 +40,9 @@
 				<span id="progressbarpc"></span>
 			</div>
 		</div>
-		<p style="font-size: xx-large; color: white;">Developed by M.Mohamed EL-EDSHEHY</p>
+	  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAAAAACPAi4CAAAACXBIWXMAAB7CAAAewgFu0HU+AAAAy0lEQVR42u3XwQ2CQBBG4cmkXHGoe+e9P4gZmZpsaxW/gQQNys/ryNxGIhaIYZIkOYBwCeNCjVJmAKx0iKDv0FnAAgg0LYBgijC1UgBFGKAakJgDTINZSUANAA2C4DFLJEBMyVnKFcCWvKAP/AAgH+CoCVvWFrtwE48fwPYCVqqGADhfRg/oA2Ao2shItVaaypYZVtW+sGL2i4FkOrMf2B/m9oxD1FoA/hEAymH4W0CKXkgy50cRYdg3gDtM7NCb5hmElAAAAAElFTkSuQmCC" alt="Instagram Logo">
+
+		<p style="font-size: xx-large; color: white;">Instagram: @Gorgan.PS</p>
 		<p style="font-size: larger; color: darkgoldenrod; "><b style="font-size: larger;">Credits</b>: SiSTRo, noob404yt, hippie68 and many more.</p>
 	</div>
 	
